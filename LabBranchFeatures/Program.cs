@@ -10,6 +10,7 @@ namespace LabBranchFeatures
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Added in 'develop' branch");
             Console.WriteLine("LabBranchFeatures");
             Console.ReadKey();
         }

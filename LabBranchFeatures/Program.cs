@@ -10,6 +10,7 @@ namespace LabBranchFeatures
     {
         static void Main(string[] args)
         {
+            IDMLManager manager = new IDMLManager();
             Console.WriteLine("'feature 1' implemented, phase A");
             Console.WriteLine("'feature 1' implemented, phase B");
             Console.WriteLine("Added in 'develop' branch");

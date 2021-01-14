@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LabBranchFeatures
 {
-    class IDMLManager : IDisposable
+    public class IDMLManager : IDisposable
     {
         public string Language { get; set; }
 

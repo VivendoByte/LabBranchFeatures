@@ -6,8 +6,28 @@ using System.Threading.Tasks;
 
 namespace LabBranchFeatures
 {
-    public class LanguageRepository
+    public class LanguageRepository : IDisposable
     {
+        public IDMLManager IDMLManager { get; private set; }
 
+        public LanguageRepository(IDMLManager manager)
+        {
+            this.IDMLManager = manager;
+        }
+
+        public void Cancel()
+        {
+
+        }
+
+        public void SaveChanges()
+        {
+
+        }
+
+        public void Dispose()
+        {
+            this.IDMLManager.Dispose();
+        }
     }
 }

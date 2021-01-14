@@ -19,7 +19,10 @@ namespace LabBranchFeatures
             Console.WriteLine("Added in 'develop' branch");
             Console.WriteLine("LabBranchFeatures");
 
-
+            using (LanguageRepository repo = new LanguageRepository(manager))
+            {
+                repo.SaveChanges();
+            }
 
             Console.ReadKey();
         }

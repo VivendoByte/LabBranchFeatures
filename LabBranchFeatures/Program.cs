@@ -11,6 +11,8 @@ namespace LabBranchFeatures
         static void Main(string[] args)
         {
             IDMLManager manager = new IDMLManager();
+            manager.Language = "en-US";
+
             Console.WriteLine("'feature 1' implemented, phase A");
             Console.WriteLine("'feature 1' implemented, phase B");
             Console.WriteLine("Added in 'develop' branch");

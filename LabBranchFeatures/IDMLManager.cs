@@ -8,6 +8,8 @@ namespace LabBranchFeatures
 {
     class IDMLManager
     {
+        public string Language { get; set; }
+
         public IDMLManager()
         {
 
